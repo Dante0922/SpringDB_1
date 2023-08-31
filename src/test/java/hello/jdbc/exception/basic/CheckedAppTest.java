@@ -1,4 +1,4 @@
-package hello.jdbc.connection.exception.basic;
+package hello.jdbc.exception.basic;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
