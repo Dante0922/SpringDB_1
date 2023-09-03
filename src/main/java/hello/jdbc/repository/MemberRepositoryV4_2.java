@@ -19,7 +19,7 @@ import java.util.NoSuchElementException;
 @Slf4j
 public class MemberRepositoryV4_2 implements MemberRepository{
 
-    private static   DataSource dataSource;
+    private static DataSource dataSource;
     private final SQLExceptionTranslator exTranslator;
 
     public MemberRepositoryV4_2(DataSource dataSource) {
